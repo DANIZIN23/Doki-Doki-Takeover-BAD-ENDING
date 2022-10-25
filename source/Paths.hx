@@ -281,7 +281,7 @@ class Paths
 	{
 		var graphic:FlxGraphic = Paths.image(key, library);
 		var xmlExists:Bool = true;
-		if (FileSystem.exists(modsXml(key)))
+		
 		{
 			xmlExists = true;
 		}
