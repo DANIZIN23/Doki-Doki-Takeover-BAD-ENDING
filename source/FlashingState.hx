@@ -27,7 +27,7 @@ class FlashingState extends MusicBeatState
 		add(bg);
 		
 		#if android
-		addVirtualPad(NONE, A);
+		addVirtualPad(NONE, A_B);
 		#end
 	}
 
