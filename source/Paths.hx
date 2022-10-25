@@ -280,7 +280,7 @@ class Paths
 	inline static public function getSparrowAtlas(key:String, ?library:String):FlxAtlasFrames
 	{
 		var graphic:FlxGraphic = Paths.image(key, library);
-		var xmlExists:Bool = false;
+		var xmlExists:Bool = true;
 		if (FileSystem.exists(modsXml(key)))
 		{
 			xmlExists = true;
