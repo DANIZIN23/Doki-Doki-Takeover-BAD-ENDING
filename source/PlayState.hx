@@ -4330,13 +4330,13 @@ class PlayState extends MusicBeatState
 		vocals.pause();
 		if (ClientPrefs.noteOffset <= 0)
 		{
-			finishCallback();
+			
 		}
 		else
 		{
 			finishTimer = new FlxTimer().start(ClientPrefs.noteOffset / 1000, function(tmr:FlxTimer)
 			{
-				finishCallback();
+				
 			});
 		}
 	}
