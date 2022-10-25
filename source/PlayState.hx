@@ -1942,7 +1942,7 @@ class PlayState extends MusicBeatState
 
 		var songName:String = Paths.formatToSongPath(SONG.song);
 		var file:String = Paths.json(songName + '/events');
-		#if sys
+		#if MODS_ALLOWED
 		if (FileSystem.exists(Paths.modsJson(songName + '/events')) || FileSystem.exists(file))
 		{
 		#else
@@ -4323,8 +4323,7 @@ class PlayState extends MusicBeatState
 
 	function finishSong():Void
 	{
-		var finishCallback:Void->Void = beforeEndSong; // In case you want to change it in a specific song.
-
+		
 		updateTime = false;
 		FlxG.sound.music.volume = 0;
 		vocals.volume = 0;
