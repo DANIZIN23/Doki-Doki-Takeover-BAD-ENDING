@@ -34,7 +34,7 @@ class FlashingState extends MusicBeatState
 	override function update(elapsed:Float)
 	{
 		
-		
+		{
 			selected = true;
 			FlxG.sound.play(Paths.sound('confirmMenu'));
 			FlxTransitionableState.skipNextTransIn = true;
