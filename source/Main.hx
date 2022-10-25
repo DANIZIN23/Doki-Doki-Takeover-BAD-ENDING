@@ -35,7 +35,7 @@ class Main extends Sprite
 	{
 		super();
 		
-    SUtil.gameCrashCheck();
+    
  
 		if (stage != null)
 		{
@@ -71,7 +71,7 @@ class Main extends Sprite
 			gameHeight = Math.ceil(stageHeight / zoom);
 		}
 
-		SUtil.doTheCheck();
+		
 
 		#if !debug
 		initialState = TitleState;
