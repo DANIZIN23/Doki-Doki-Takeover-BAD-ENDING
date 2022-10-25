@@ -12,3 +12,6 @@ DDLC+ Links: **[DDLC+ Official Website](http://ddlc.plus) ⋅ [Steam page](https
 # Credits
 
 Credits are listed in the game!
+
+
+PLEASE DON'T STEAL MY CODES 
