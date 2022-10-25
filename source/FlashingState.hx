@@ -33,8 +33,8 @@ class FlashingState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
-		if (controls.ACCEPT && !selected #if android || _virtualpad.buttonA.justPressed #end)
-		{
+		
+		
 			selected = true;
 			FlxG.sound.play(Paths.sound('confirmMenu'));
 			FlxTransitionableState.skipNextTransIn = true;
